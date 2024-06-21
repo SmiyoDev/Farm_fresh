@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="header-top">
+            <div class="header-brand">
+                <h1><span class="highlight">Farm</span> Fresh</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="login.html">Sign In</a></li>
+                    <li><a href="signup.html">Register</a></li>
+                    <li class="cart-btn">
+                        Cart <i class="bx bx-cart"></i>
+                        <span class="cart-count">0</span>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="cart-items">
+            <h2>Cart Items</h2>
+            <div class="cart-items-container">
+                <!-- Cart items will be displayed here -->
+            </div>
+            <div class="cart-total">
+                <h3>Subtotal: <span id="cart-total">0</span> KSH</h3>
+                <button class="checkout-btn">Checkout</button>
+            </div>
+        </section>
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

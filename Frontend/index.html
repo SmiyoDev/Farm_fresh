@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consumer Dashboard</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="header-top">
+            <div class="header-brand">
+                <h1><span class="highlight">Farm</span> Fresh</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="login.html">Sign In</a></li>
+                    <li><a href="signup.html">Register</a></li>
+                    <li><a href="cart.html" class="cart-btn">Cart <i class="bx bx-cart"></i></a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="header-search">
+            <input type="text" placeholder="Search for products...">
+            <button type="submit">Search</button>
+        </div>
+    </header>
+
+    <main>
+        <section class="uncategorized-products">
+            <h2>Featured Products</h2>
+            <div class="product-grid">
+                <div class="product-card">
+                    <img src="images/meat1.webp" alt="Featured Product 1">
+                    <p>Beef</p>
+                    <p>Price: Ksh 250</p>
+                    <p>Location: Farm X</p>
+                    <button class="add-to-cart-btn">Add to Cart</button>
+                </div>
+                <div class="product-card">
+                    <img src="images/cereals4.webp" alt="Featured Product 2">
+                    <p>Cereals</p>
+                    <p>Price: Ksh 180</p>
+                    <p>Location: Farm Y</p>
+                    <button class="add-to-cart-btn">Add to Cart</button>
+                </div>
+                <div class="product-card">
+                    <img src="images/tomatoes.webp" alt="Featured Product 3">
+                    <p>Tomatoes</p>
+                    <p>Price: Ksh 300</p>
+                    <p>Location: Farm Z</p>
+                    <button class="add-to-cart-btn">Add to Cart</button>
+                </div>
+                <div class="product-card">
+                    <img src="images/Apples.webp" alt="Featured Product 4">
+                    <p>Apples</p>
+                    <p>Price: Ksh 220</p>
+                    <p>Location: Farm W</p>
+                    <button class="add-to-cart-btn">Add to Cart</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="product-categories">
+            <h2>Product Categories</h2>
+            <section id="vegetables" class="product-category">
+                <h3>Vegetables</h3>
+                <div class="product-grid">
+                    <div class="product-card">
+                        <img src="images/tomatoes.webp" alt="Tomatoes">
+                        <p>Tomatoes</p>
+                        <p>Price: Ksh 200</p>
+                        <p>Location: Farm A</p>
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                    </div>
+                    <div class="product-card">
+                        <img src="images/cabbage.jpeg" alt="Cabbage">
+                        <p>Cabbage</p>
+                        <p>Price: Ksh 150  </p>
+                        <p>Location: Farm C</p>
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                    </div>
+                    <div class="product-card">
+                        <img src="images/carrots.webp" alt="Carrots">
+                        <p>Carrots</p>
+                        <p>Price: Ksh 150</p>
+                        <p>Location: Farm C</p>
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                    </div>
+                    <div class="product-card">
+                        <img src="images/broccoli.webp" alt="Broccoli">
+                        <p>Broccoli</p>
+                        <p>Price: Ksh 250</p>
+                        <p>Location: Farm D</p>
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                    </div>
+                </div>
+            </section>
+    
+            <section id="fruits" class="product-category">
+                <h3>Fruits</h3>
+                <div class="product-grid">
+                    <div class="product-card">
+                        <img src="images/Apples.webp" alt="Apples">
+                        <p>Apples</p>
+                        <p>Price: Ksh 400</p>
+                        <p>Location: Farm E</p>
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                    </div>
+                    <div class="product-card">
+                        <img src="images/bananas.webp" alt="Bananas">
+                        <p>Bananas</p>
+                        <p>Price: Ksh 350</p>
+                        <p>Location: Farm F</p>
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                    </div>
+                    <div class="product-card">
+                        <img src="images/oranges.jpeg" alt="Oranges">
+                        <p>Oranges</p>
+                        <p>Price: Ksh 500</p>
+                        <p>Location: Farm G</p>
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                    </div>
+                    <div class="product-card">
+                        <img src="images/pineapples.jpeg" alt="Pineapples">
+                        <p>Pineapples</p>
+                        <p>Price: Ksh 450</p>
+                        <p>Location: Farm H</p>
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                    </div>
+                </div>
+            </section>
+    
+            <section id="cereals" class="product-category">
+                <h3>Cereals</h3>
+                <div class="product-grid">
+                    <div class="product-card">
+                        <img src="images/maize.webp" alt="Maize">
+                        <p>Maize</p>
+                        <p>Price: Ksh 600</p>
+                        <p>Location: Farm I</p>
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                    </div>
+                    <div class="product-card">
+                        <img src="images/wheat.jpeg" alt="Wheat">
+                        <p>Wheat</p>
+                        <p>Price: Ksh 700</p>
+                        <p>Location: Farm J</p>
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                    </div>
+                    <div class="product-card">
+                        <img src="images/rice.jpeg" alt="Rice">
+                        <p>Rice</p>
+                        <p>Price: Ksh 800</p>
+                        <p>Location: Farm K</p>
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                    </div>
+                    <div class="product-card">
+                        <img src="images/millet.jpeg" alt="Millet">
+                        <p>Millet</p>
+                        <p>Price: Ksh 650</p>
+                        <p>Location: Farm L</p>
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                    </div>
+                </div>
+            </section>
+    
+            <section id="dairy" class="product-category">
+                <h3>Dairy</h3>
+                <div class="product-grid">
+                    <div class="product-card">
+                        <img src="images/milk.webp" alt="Milk">
+                        <p>Milk</p>
+                        <p>Price: Ksh 500</p>
+                        <p>Location: Farm M</p>
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                    </div>
+                    <div class="product-card">
+                        <img src="images/cheese.webp" alt="Cheese">
+                        <p>Cheese</p>
+                        <p>Price: Ksh 450</p>
+                        <p>Location: Farm N</p>
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                    </div>
+                    <div class="product-card">
+                        <img src="images/yogurt.webp" alt="Yogurt">
+                        <p>Yogurt</p>
+                        <p>Price: Ksh 600</p>
+                        <p>Location: Farm O</p>
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                    </div>
+                    <div class="product-card">
+                        <img src="images/butter.webp" alt="Butter">
+                        <p>Butter</p>
+                        <p>Price: Ksh 550</p>
+                        <p>Location: Farm P</p>
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                    </div>
+                </div>
+            </section>
+    
+            <section id="meat" class="product-category">
+                <h3>Meat</h3>
+                <div class="product-grid">
+                    <div class="product-card">
+                        <img src="images/meat.webp" alt="Beef">
+                        <p>Beef</p>
+                        <p>Price: Ksh 1000</p>
+                        <p>Location: Farm Q</p>
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                    </div>
+                    <div class="product-card">
+                        <img src="images/chicken.jpeg" alt="Chicken">
+                        <p>Chicken</p>
+                        <p>Price: Ksh 1200</p>
+                        <p>Location: Farm R</p>
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                    </div>
+                    <div class="product-card">
+                        <img src="images/pork.jpeg" alt="Pork">
+                        <p>Pork</p>
+                        <p>Price: Ksh 1100</p>
+                        <p>Location: Farm S</p>
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                    </div>
+                    <div class="product-card">
+                        <img src="images/lamb.jpeg" alt="Lamb">
+                        <p>Lamb</p>
+                        <p>Price: Ksh 900</p>
+                        <p>Location: Farm T</p>
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                    </div>
+                </div>
+            </section>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-top">
+            <div class="footer-brand">
+                <h2><span class="highlight">Farm</span> Fresh</h2>
+                <p>Subscribe to our newsletter:</p>
+                <form action="#">
+                    <input type="email" placeholder="Enter your email">
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="footer-links">
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Our Mission</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+                <ul>
+                    <li><a href="#">FAQs</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
+                <ul>
+                    <li><a href="#">Shipping Policy</a></li>
+                    <li><a href="#">Returns & Refunds</a></li>
+                </ul>
+            </div>
+            <div class="footer-socials">
+                <ul>
+                    <li><a href="#"><i class="bx bxl-facebook"></i> Facebook</a></li>
+                    <li><a href="#"><i class="bx bxl-twitter"></i> Twitter</a></li>
+                    <li><a href="#"><i class="bx bxl-instagram"></i> Instagram</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <ul>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Partner with Us</a></li>
+                </ul>
+                <ul>
+                    <li><a href="#">Support</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
